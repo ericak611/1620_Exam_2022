@@ -73,10 +73,10 @@ function createCard() {
 
 createCard(contactsList)
 
-// function getContactInfo() {
-//   for (let i = 0; i < contactsList.length; i++) {
-//     const contact = contactsList[i] 
-//     return contact;
-//   }
-// }
+function getContactInfo() {
+  for (let i = 0; i < contactsList.length; i++) {
+    const contact = contactsList[i] 
+    return contact;
+  }
+}
 
