@@ -52,3 +52,31 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+function createCard() {
+  const contact = getContactInfo()
+  const allContacts = document.querySelector('#display_all_contacts') 
+  const singleContacts = document.querySelector('#display_single_contact') 
+
+  for (const [key, value] of Object.entries(contact)) {
+    const card = document.createElement('div'); 
+    const info = {
+      name: value[0],
+      phone: value[1],
+      image: value[2],
+      email: value[3],
+      ID: value[4]
+    }
+    allContacts.push(info)
+  }
+}
+
+createCard(contactsList)
+
+// function getContactInfo() {
+//   for (let i = 0; i < contactsList.length; i++) {
+//     const contact = contactsList[i] 
+//     return contact;
+//   }
+// }
+
