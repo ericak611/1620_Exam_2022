@@ -72,7 +72,7 @@ main {
 #individual_contact {
   display: flex;
   gap: 20px;
-  color: var(--black);
+  color: #2a292f;
   font-weight: 200;
   padding: 20px;
 }
@@ -94,7 +94,7 @@ main {
 #individual_contact span {
   font-size: 3rem;
   margin: 5px;
-  background-color: var(--blue);
+  background-color: #6aaeca;
   height: 3rem;
   border-radius: 50px;
 }
@@ -110,10 +110,11 @@ main {
   display: flex;
   flex-basis: auto;
   height: 200px;
-  background-color: var(--red);
+  background-color: #e88e66;
   border-radius: 5px;
   padding: 10px;
   align-items: center;
+  flex-grow: 1;
 }
 
 #display_all_contacts img {
@@ -124,7 +125,8 @@ main {
 #display_all_contacts p {
   font-size: 2rem;
   font-weight: 500;
-  color: var(--black);
+  color: #2a292f;
+  ;
 }
 
 footer {
@@ -136,6 +138,6 @@ footer {
 footer p {
   font-weight: 500;
   font-size: 1.6rem;
-  color: var(--grey);
+  color: #494a5c;
   align-self: center;
 }
