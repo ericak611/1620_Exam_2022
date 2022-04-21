@@ -71,6 +71,13 @@ function createCard() {
   }
 }
 
+function closeCard() {    
+  const close = document.createElement('button')
+  cancel.innerHTML = 'cancel';
+  cancel.addEventListener('click', (e) => {removeArea(e.target)});
+  
+}
+
 createCard(contactsList)
 
 function getContactInfo() {

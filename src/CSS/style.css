@@ -28,7 +28,7 @@ img {
 
 
   font-family: 'Inter', sans-serif;
-  background-color: var(--white);
+  background-color: #f6f8f7;
 }
 
 header {
@@ -42,7 +42,8 @@ header {
 header p {
   font-weight: 500;
   font-size: 3rem;
-  color: var(--grey);
+  color: #494a5c;
+  font-family: 'Inter', sans-serif;
 }
 
 header ul {
@@ -52,6 +53,8 @@ header ul {
 
 header li {
   list-style: none;
+  justify-content: left;
+  font-family: 'Inter', sans-serif;
 }
 
 header a {
@@ -59,6 +62,7 @@ header a {
 
 
   font-size: 2rem;
+  font-family: 'Inter', sans-serif;
 }
 
 header a:hover {
@@ -75,6 +79,7 @@ main {
   color: #2a292f;
   font-weight: 200;
   padding: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 #individual_contact img {
@@ -84,15 +89,18 @@ main {
 #individual_contact h1 {
   font-size: 2.5rem;
   font-weight: 500;
+  font-family: 'Inter', sans-serif;
 }
 
 #individual_contact p {
   font-size: 2rem;
   font-weight: 500;
+  font-family: 'Inter', sans-serif;
 }
 
 #individual_contact span {
   font-size: 3rem;
+  font-family: 'Inter', sans-serif;
   margin: 5px;
   background-color: #6aaeca;
   height: 3rem;
@@ -126,6 +134,7 @@ main {
   font-size: 2rem;
   font-weight: 500;
   color: #2a292f;
+  font-family: 'Inter', sans-serif;
   ;
 }
 
@@ -140,4 +149,5 @@ footer p {
   font-size: 1.6rem;
   color: #494a5c;
   align-self: center;
+  font-family: 'Inter', sans-serif;
 }
